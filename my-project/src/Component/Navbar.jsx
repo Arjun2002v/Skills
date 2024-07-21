@@ -14,9 +14,9 @@ export default function Navbar() {
       ))}
     </div>
     <div className='center'>
-      {["Home","About","Project"].map((items)=>(
-        <a >{items}</a>
-      ))}
+    <a href="#Navabar">Home</a>
+    <a href="#Contact">Contact</a>
+    <a href="">About</a>
     </div>
     <div className='right'>
       <a href=''> Contact Me</a>
